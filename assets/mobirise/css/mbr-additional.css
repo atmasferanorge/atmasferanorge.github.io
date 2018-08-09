@@ -2516,41 +2516,6 @@ body {
 .cid-qZXFEidJfW .mbr-section-btn {
   color: #ffffff;
 }
-.cid-qZXFEjdbqT {
-  padding-top: 120px;
-  padding-bottom: 0px;
-  background-color: #f7f7f7;
-}
-.cid-qZXFEjdbqT .line {
-  background-color: #f7f7f7;
-  color: #f7f7f7;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-qZXFEjdbqT .section-text {
-  padding: 2rem 0;
-  color: #465052;
-}
-.cid-qZXFEjdbqT .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-qZXFEjdbqT .inner-container {
-    width: 100% !important;
-  }
-}
-.cid-qZXFEk1dvT {
-  padding-top: 15px;
-  padding-bottom: 0px;
-  background-color: #f7f7f7;
-}
-.cid-qZXFEk1dvT .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-qZXFEk1dvT H2 {
-  color: #465052;
-}
 .cid-qZXFEl64hn {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -2597,34 +2562,60 @@ body {
   color: #ffffff;
 }
 .cid-qZXFEl64hn SPAN {
-  color: #465052;
+  color: #232323;
 }
 .cid-qZXFEl64hn .mbr-title {
-  color: #465052;
+  color: #232323;
 }
 .cid-qZXFEl64hn .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qZXFEjdbqT {
+  padding-top: 120px;
+  padding-bottom: 0px;
+  background-color: #f7f7f7;
+}
+.cid-qZXFEjdbqT .line {
+  background-color: #f7f7f7;
+  color: #f7f7f7;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-qZXFEjdbqT .section-text {
+  padding: 2rem 0;
   color: #465052;
 }
-.cid-qZXFEm8oGc {
-  padding-top: 60px;
-  padding-bottom: 90px;
-  background: #f7f7f7;
-}
-.cid-qZXFEm8oGc .image-block {
-  margin: auto;
-}
-.cid-qZXFEm8oGc figcaption {
-  position: relative;
-}
-.cid-qZXFEm8oGc figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.cid-qZXFEjdbqT .inner-container {
+  margin: 0 auto;
 }
 @media (max-width: 768px) {
-  .cid-qZXFEm8oGc .image-block {
+  .cid-qZXFEjdbqT .inner-container {
     width: 100% !important;
   }
+}
+.cid-qZXFEk1dvT {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #f7f7f7;
+}
+.cid-qZXFEk1dvT .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qZXFEk1dvT H2 {
+  color: #465052;
+}
+.cid-r0eAVNP0UT {
+  padding-top: 0px;
+  padding-bottom: 45px;
+  background-color: #f7f7f7;
+}
+.cid-r0eAVNP0UT .mbr-text,
+.cid-r0eAVNP0UT blockquote {
+  color: #767676;
+}
+.cid-r0eAVNP0UT .mbr-text DIV {
+  color: #232323;
 }
 .cid-qZXFEmZXyv {
   padding-top: 45px;
@@ -2691,11 +2682,90 @@ body {
   color: #232323;
 }
 .cid-qZXFEmZXyv .main-subtitle {
-  color: #465052;
+  color: #232323;
 }
 .cid-qZXFEmZXyv .card-subtitle,
 .cid-qZXFEmZXyv .card-underline {
   color: #767676;
+}
+.cid-r0eBhgBzO1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f7f7f7;
+}
+.cid-r0eBhgBzO1 .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-r0eBhgBzO1 .section-text {
+  padding: 2rem 0;
+}
+.cid-r0eBhgBzO1 .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-r0eBhgBzO1 .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-r0eBrMvM3q {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  background-color: #f7f7f7;
+}
+.cid-r0eBrMvM3q .mbr-text,
+.cid-r0eBrMvM3q blockquote {
+  color: #767676;
+}
+.cid-r0eBrMvM3q .mbr-text {
+  color: #232323;
+}
+.cid-qZXFEm8oGc {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: #f7f7f7;
+}
+.cid-qZXFEm8oGc .image-block {
+  margin: auto;
+}
+.cid-qZXFEm8oGc figcaption {
+  position: relative;
+}
+.cid-qZXFEm8oGc figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qZXFEm8oGc .image-block {
+    width: 100% !important;
+  }
+}
+.cid-r0eCvyx2cA {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f7f7f7;
+}
+.cid-r0eCvyx2cA .line {
+  background-color: #149dcc;
+  color: #149dcc;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-r0eCvyx2cA .section-text {
+  padding: 2rem 0;
+}
+.cid-r0eCvyx2cA .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-r0eCvyx2cA .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-qZXFEoHiMl {
   padding-top: 120px;
