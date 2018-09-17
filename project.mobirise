@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Atmasfera",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
       ]
     },
     "versionFirst": "4.6.7",
-    "uniqCompNum": 557,
+    "uniqCompNum": 559,
     "versionPublish": "4.7.6",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -2023,6 +2023,89 @@
           "_params": {}
         },
         {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-small-2-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%20small%202-700x467.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-small-2-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-4-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%204-700x525.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-4-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide1-2-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide1-640x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/slide1-85x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-small-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%20small-700x525.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-small-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-3-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%203-700x525.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-3-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#f7f7f7",
+            "timeout": "4",
+            "duration": "4",
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "640x480",
+            "width": "640",
+            "height": "480"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-fh"
+        },
+        {
           "_styles": {
             "& when not (@fullWidth)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -2448,7 +2531,7 @@
             }
           },
           "_name": "features3",
-          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"100\" step=\"5\" value=\"100\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline && showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Paragraphs Count\" name=\"paragraphsCount\" condition=\"showText\">\n             <option value=\"1\" selected>1</option>\n             <option value=\"2\">2</option>\n        </select>  \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1080.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#7f1933\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth,\n                     'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"image-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\">\n                <div class=\"img-wrap\" mbr-style=\"{'height': mediaSize + '%',\n                                 'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/small-600x372.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"text-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\" mbr-if=\"showTitle || showSubtitle || showText ||showButtons\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\"><p>Wilderness Hiking</p></h3>\n                <div class=\"underline pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h2 class=\"mbr-section-title mbr-fonts-style pb-4 mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Explore Femundsmarka National Park<br></h2>\n                <div class=\"paragraphs-wrapper pb-4\" mbr-if=\"showText\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-lighter\" mbr-class=\"{'first-paragraph': paragraphsCount == 2}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">The retreat is located in close proximity to Femundsmarka National Park, famous for vast areas of marshes and lakes.</p>\n                    <p class=\"second-paragraph mbr-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"paragraphsCount == 2\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, in odit asperiores modi tenetur enim optio excepturi saepe nemo quae voluptates temporibus molestias aliquid, perferendis placeat. Quasi facilis optio ex?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\">ABOUT US</a>\n                </div>\n            </div>\n        </div>\n    </div>          \n</section>",
+          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"100\" step=\"5\" value=\"100\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline && showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Paragraphs Count\" name=\"paragraphsCount\" condition=\"showText\">\n             <option value=\"1\" selected>1</option>\n             <option value=\"2\">2</option>\n        </select>  \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1080.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#7f1933\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth,\n                     'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"image-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\">\n                <div class=\"img-wrap\" mbr-style=\"{'height': mediaSize + '%',\n                                 'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/small-600x372.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"text-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\" mbr-if=\"showTitle || showSubtitle || showText ||showButtons\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\"><p>Beautiful Nature</p></h3>\n                <div class=\"underline pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h2 class=\"mbr-section-title mbr-fonts-style pb-4 mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Possibility for hikes right around the corner</h2>\n                <div class=\"paragraphs-wrapper pb-4\" mbr-if=\"showText\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-lighter\" mbr-class=\"{'first-paragraph': paragraphsCount == 2}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">The retreat is located in close proximity to Femundsmarka National Park, famous for vast areas of marshes and lakes. In between the meditation programs, there will opportunities to go for shorter hikes in the surroundings.</p>\n                    <p class=\"second-paragraph mbr-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"paragraphsCount == 2\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, in odit asperiores modi tenetur enim optio excepturi saepe nemo quae voluptates temporibus molestias aliquid, perferendis placeat. Quasi facilis optio ex?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\">ABOUT US</a>\n                </div>\n            </div>\n        </div>\n    </div>          \n</section>",
           "_anchor": "features3-dc",
           "_isUserblock": true,
           "_sourceTheme": "hotelm4",
@@ -5407,6 +5490,89 @@
           "_params": {}
         },
         {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-small-2-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%20small%202-700x467.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-small-2-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-4-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%204-700x525.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-4-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide1-2-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide1-640x480.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/slide1-85x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-small-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%20small-700x525.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-small-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/femund-3-640x480.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/femund%203-700x525.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/femund-3-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#f7f7f7",
+            "timeout": "4",
+            "duration": "4",
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "640x480",
+            "width": "640",
+            "height": "480"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-fi"
+        },
+        {
           "_styles": {
             "& when not (@fullWidth)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -5832,7 +5998,7 @@
             }
           },
           "_name": "features3",
-          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"100\" step=\"5\" value=\"100\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline &amp;&amp; showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Paragraphs Count\" name=\"paragraphsCount\" condition=\"showText\">\n             <option value=\"1\" selected=\"\">1</option>\n             <option value=\"2\">2</option>\n        </select>  \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1080.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#7f1933\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth,\n                     'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"image-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\">\n                <div class=\"img-wrap\" mbr-style=\"{'height': mediaSize + '%',\n                                 'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/small-600x372.jpg\" alt=\"\" title=\"\">\n                </div>\n            </div>\n            <div class=\"text-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\" mbr-if=\"showTitle || showSubtitle || showText ||showButtons\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\"><p>Tur i vakker natur</p></h3>\n                <div class=\"underline pb-3\" mbr-if=\"showUnderline &amp;&amp; showSubtitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h2 class=\"mbr-section-title mbr-fonts-style pb-4 mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Oppdag Femundsmarka nasjonalpark<br></h2>\n                <div class=\"paragraphs-wrapper pb-4\" mbr-if=\"showText\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-lighter\" mbr-class=\"{'first-paragraph': paragraphsCount == 2}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Retreatet blir holdt av like ved Femundsmark Nasjonalpark, som er kjent for sine vakre myrer og innsjøer.</p>\n                    <p class=\"second-paragraph mbr-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"paragraphsCount == 2\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, in odit asperiores modi tenetur enim optio excepturi saepe nemo quae voluptates temporibus molestias aliquid, perferendis placeat. Quasi facilis optio ex?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-buttons=\"\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\">ABOUT US</a>\n                </div>\n            </div>\n        </div>\n    </div>          \n</section>",
+          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"100\" step=\"5\" value=\"100\" condition=\"!fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showSubtitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline && showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Paragraphs Count\" name=\"paragraphsCount\" condition=\"showText\">\n             <option value=\"1\" selected>1</option>\n             <option value=\"2\">2</option>\n        </select>  \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1080.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=2jqUN6d6ZyM\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#7f1933\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth,\n                     'container': !fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"image-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\">\n                <div class=\"img-wrap\" mbr-style=\"{'height': mediaSize + '%',\n                                 'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/small-600x372.jpg\" alt title>\n                </div>\n            </div>\n            <div class=\"text-element\" mbr-class=\"{'col-xl-5': !fullWidth,\n                             'col-xl-6': fullWidth}\" mbr-if=\"showTitle || showSubtitle || showText ||showButtons\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-lighter mbr-white\" mbr-class=\"{'pb-3': !showUnderline}\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .underline\"><p>Tur i vakker natur</p></h3>\n                <div class=\"underline pb-3\" mbr-if=\"showUnderline && showSubtitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h2 class=\"mbr-section-title mbr-fonts-style pb-4 mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Med turmuligheter rett utenfor døra</h2>\n                <div class=\"paragraphs-wrapper pb-4\" mbr-if=\"showText\">\n                    <p class=\"mbr-text mbr-fonts-style mbr-lighter\" mbr-class=\"{'first-paragraph': paragraphsCount == 2}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Retreaten blir arrangert like ved Femundsmark Nasjonalpark, som er kjent for sine vakre myrer og innsjøer. Programmet er lagt opp slik at du får tid til tur i skog &amp; mark.</p>\n                    <p class=\"second-paragraph mbr-text mbr-fonts-style mbr-lighter\" mbr-theme-style=\"display-7\" mbr-if=\"paragraphsCount == 2\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, in odit asperiores modi tenetur enim optio excepturi saepe nemo quae voluptates temporibus molestias aliquid, perferendis placeat. Quasi facilis optio ex?\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-buttons data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-lg btn-secondary\" href=\"https://mobirise.com\">ABOUT US</a>\n                </div>\n            </div>\n        </div>\n    </div>          \n</section>",
           "_anchor": "features3-fe",
           "_isUserblock": true,
           "_sourceTheme": "hotelm4",
