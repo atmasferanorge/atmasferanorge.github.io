@@ -2913,7 +2913,7 @@ body {
 .cid-rCDJGfgcIz {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-color: #f7f7f7;
+  background-image: url("../../../assets/images/img-7096-1600x1066.jpg");
 }
 .cid-rCDJGfgcIz .mbr-section-subtitle,
 .cid-rCDJGfgcIz .mbr-text {
@@ -2990,6 +2990,13 @@ body {
 }
 .cid-rCDJGfgcIz .card-img:hover .mbr-section-btn {
   opacity: 1;
+}
+.cid-rCDJGfgcIz .mbr-section-title {
+  color: #ffffff;
+}
+.cid-rCDJGfgcIz .mbr-section-subtitle {
+  text-align: center;
+  color: #ffffff;
 }
 .cid-rC2TFhdbez {
   padding-top: 90px;
